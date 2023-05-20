@@ -1,0 +1,23 @@
+<div class="container">
+  <h1>Witch Calculator Result</h1>
+  <div class="row">
+    <div class="col">
+      <h3 class="center">The average number of people killed on the year of birth is:</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <h2 class="center"><%= @average_kills %></h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <%= link_to 'Go Back', witch_calculator_path, class: "btn btn-primary btn-center", onclick: "location.reload()" %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img class="image-center" src="https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_2.0/c_scale,w_400/ncom/en_US/games/switch/l/labyrinth-of-the-witch-switch/description-image" alt="Hero Logo">
+    </div>
+  </div>
+</div>

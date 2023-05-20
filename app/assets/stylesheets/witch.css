@@ -1,0 +1,100 @@
+/* Dark Witch Style */
+
+/* Body */
+body {
+  background-color: #301934;
+  color: #fff;
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Heading */
+h1 {
+  color: #8B5C89;
+  text-align: center;
+  position: relative;
+}
+
+h3, h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+}
+
+/* Form */
+#witch-calculation-form {
+  margin-top: 20px;
+}
+
+/* Person Fields */
+.person-fields {
+  margin-bottom: 20px;
+}
+
+.person-fields input[type="number"] {
+  background-color: #8B5C89;
+  color: #fff;
+  border: 1px solid #8B5C89;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+/* Remove Person Button */
+.remove-person {
+  background-color: #FF4949;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Add Person Button */
+#add-person {
+  background-color: #6B4E75;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Calculate Button */
+.btn {
+  background-color: #6B4E75;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.center {
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn-center {
+  position: absolute;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.image-center {
+  height: 70%;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
