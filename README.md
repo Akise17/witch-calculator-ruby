@@ -24,8 +24,3 @@ or using docker
 
 1. docker build -t witch_calculator:v1 .
 2. docker run -p 8080:8080 witch_calculator:v1
-## Code quality
-
-With `rake code_analysis` you can run the code analysis tool, you can omit rules with:
-
-- [Rubocop](https://github.com/bbatsov/rubocop/blob/master/config/default.yml)
