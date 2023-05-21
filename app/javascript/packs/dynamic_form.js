@@ -28,9 +28,11 @@ document.addEventListener('DOMContentLoaded', () => {
   function generatePersonField(index) {
     return `
       <div class="person-fields", index=${index}>
-        <input type="number" name="persons[][age_of_death]" placeholder="Age of Death">
-        <input type="number" name="persons[][year_of_death]" placeholder="Year of Death">
-        <button type="button" class="btn btn-danger remove-person">Remove Person</button>
+        <div class="row">
+          <input class="m10" type="number" name="persons[][age_of_death]" placeholder="Age of Death">
+          <input class="m10" type="number" name="persons[][year_of_death]" placeholder="Year of Death">
+          <button type="button" class="btn btn-danger remove-person m10">Remove Person</button>
+        </div>
       </div>
     `;
   }

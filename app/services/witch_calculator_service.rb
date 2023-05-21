@@ -40,9 +40,13 @@ class WitchCalculatorService
       result += fibonacci
     end
     result
+  rescue StandardError => e
+    'Infinity'
   end
 
   def calculate_average
+    return 'Infinity' if villagers_killed.include? 'Infinity'
+
     total_villagers_killed = villagers_killed.reduce(:+)
     total_persons = persons.length
     average = total_villagers_killed.to_f / total_persons

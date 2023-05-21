@@ -3,9 +3,11 @@
   <%= form_with(model: @witch_calculation, url: calculate_average_kills_path, method: :post, class: "mt-4") do |form| %>
     <div id="persons">
       <div class="person-fields" index=0>
-        <input type="number" name="persons[][age_of_death]" placeholder="Age of Death">
-        <input type="number" name="persons[][year_of_death]" placeholder="Year of Death">
-        <button type="button" class="btn btn-danger remove-person">Remove Person</button>
+        <div class="row">
+          <input class="m10" type="number" name="persons[][age_of_death]" placeholder="Age of Death">
+          <input class="m10" type="number" name="persons[][year_of_death]" placeholder="Year of Death">
+          <button type="button" class="btn btn-danger remove-person m10">Remove Person</button>
+        </div>
       </div>
     </div>
     <div class="row">
